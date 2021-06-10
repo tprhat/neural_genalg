@@ -1,0 +1,19 @@
+1. Sinusoida
+
+python solution.py --train ./files/sine_train.txt --test ./files/sine_test.txt --nn 5s --popsize 10 --elitism 1 --p 0.1 --K 0.1 --iter 10000
+
+python solution.py --train ./files/sine_train.txt --test ./files/sine_test.txt --nn 20s --popsize 20 --elitism 1 --p 0.7 --K 0.1 --iter 10000
+
+2. Rastring
+
+python solution.py --train ./files/rastrigin_train.txt --test ./files/rastrigin_test.txt --nn 5s --popsize 10 --elitism 1 --p 0.3 --K 0.5 --iter 10000
+
+python solution.py --train ./files/rastrigin_train.txt --test ./files/rastrigin_test.txt --nn 20s --popsize 20 --elitism 1 --p 0.1 --K 0.5 --iter 10000
+
+3. Rosenbrock
+
+python solution.py --train ./files/rosenbrock_train.txt --test ./files/rosenbrock_test.txt --nn 5s --popsize 10 --elitism 1 --p 0.5 --K 4. --iter 10000
+
+python solution.py --train ./files/rosenbrock_train.txt --test ./files/rosenbrock_test.txt --nn 5s5s --popsize 20 --elitism 1 --p 0.5 --K 1. --iter 10000
+
+python solution.py --train ./files/rosenbrock_train.txt --test ./files/rosenbrock_test.txt --nn 20s --popsize 20 --elitism 3 --p 0.5 --K 10. --iter 10000
